@@ -1,0 +1,26 @@
+{
+  "name": "jcb-snippet",
+  "version": "1.0.1",
+  "description": "Display code snippet with syntax highlighting",
+  "main": "index.mjs",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": "Jean-Christophe Buisson <buisson@enseeiht.fr> (jcbuisson.dev)",
+  "dependencies": {
+    "jcb-snippet": "^1.0.1",
+    "lit": "^3.1.0",
+    "prismjs": "^1.29.0"
+  }
+}
