@@ -7,8 +7,6 @@ import 'prismjs/components/prism-css'
 import 'prismjs/components/prism-javascript'
 import 'prismjs/components/prism-bash'
 
-import 'prismjs/themes/prism.css'
-
 
 class CodeSnippet extends LitElement {
    static styles = css`
@@ -40,7 +38,6 @@ class CodeSnippet extends LitElement {
       super.updated(changedProperties)
       // Reinitialize Prism.js when the code changes
       if (changedProperties.has('code')) {
-         console.log('highlight!')
          Prism.highlightAll()
       }
    }
