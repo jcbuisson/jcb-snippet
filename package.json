@@ -1,6 +1,6 @@
 {
   "name": "jcb-snippet",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Display code snippet with syntax highlighting",
   "main": "index.mjs",
   "type": "module",
